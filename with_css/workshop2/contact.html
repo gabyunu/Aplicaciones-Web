@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My University Website</title>
+    
+    <link rel="icon" href="images/siuu.png">
+    
+    <link rel="stylesheet" href="../../with_css/workshop2/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="hobbies.html">Hobbies</a>
+
+     
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Contact Form</h2>
+
+            <form>
+
+                <p>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </p>
+
+                <p>
+                    <label for="degree">Degree Program:</label>
+
+                    <select id="degree" name="degree">
+
+                        <option value="">Select your degree</option>
+                        <option value="computer-science">Computer Science</option>
+                        <option value="software-engineering">Software Engineering</option>
+                        <option value="systems-engineering">Systems Engineering</option>
+                        <option value="other">Other</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="semester">Semester:</label>
+
+                    <select id="semester" name="semester">
+
+                        <option value="">Select your semester</option>
+                        <option value="1">1st Semester</option>
+                        <option value="2">2nd Semester</option>
+                        <option value="3">3rd Semester</option>
+                        <option value="4">4th Semester</option>
+                        <option value="5">5th Semester</option>
+                        <option value="6">6th Semester</option>
+                        <option value="7">7th Semester</option>
+                        <option value="8">8th Semester</option>
+                        <option value="9">9th Semester</option>
+                        <option value="10">10th Semester</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="reason">Reason for Contact:</label>
+
+                    <select id="reason" name="reason">
+
+                        <option value="">Select a reason</option>
+                        <option value="academic">Academic Question</option>
+                        <option value="personal">Personal Question</option>
+                        <option value="project">Project</option>
+                        <option value="other">Other</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label>
+                </p>
+
+                <p>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        placeholder="Write your message here...">
+                    </textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="accept" name="accept" required>
+
+                    <label for="accept">
+                        I accept the terms and conditions.
+                    </label>
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gabriela Galarza</p>
+    </footer>
+
+</body>
+
+</html>
